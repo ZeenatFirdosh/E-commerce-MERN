@@ -28,12 +28,12 @@ const Navbar = () => {
         <div className="nav-elements">
             
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <li><a href="/" rel="noreferrer" onClick={() => setActiveNav('/')} className={activeNav === '/' ? 'active' : ''}>Home</a></li>
-                <li><a href="/products" rel="noreferrer" onClick={() => setActiveNav('/products')} className= {activeNav ==='/products' ? 'active' : ''}>Products</a></li>
-                <li><a href="/search" rel="noreferrer" onClick={() => setActiveNav('/search')} className= {activeNav ==='/search' ? 'active' : ''}>Search</a></li>
-                <li><a href="/about" rel="noreferrer" onClick={() => setActiveNav('/about')} className= {activeNav ==='/about' ? 'active' : ''}>About</a></li>
-                <li><a href="/contact" rel="noreferrer" onClick={() => setActiveNav('/contact')} className= {activeNav ==='/contact' ? 'active' : ''}>Contact</a></li>
-                <li><a href="/login" rel="noreferrer" onClick={() => setActiveNav('/login')} className= {activeNav ==='/login' ? 'active' : ''}>Login</a></li>
+                <li><Link to="/" rel="noreferrer" onClick={() => setActiveNav('/')} className={activeNav === '/' ? 'active' : ''}>Home</Link></li>
+                <li><Link to="/products" rel="noreferrer" onClick={() => setActiveNav('/products')} className= {activeNav ==='/products' ? 'active' : ''}>Products</Link></li>
+                <li><Link to="/search" rel="noreferrer" onClick={() => setActiveNav('/search')} className= {activeNav ==='/search' ? 'active' : ''}>Search</Link></li>
+                <li><Link to="/about" rel="noreferrer" onClick={() => setActiveNav('/about')} className= {activeNav ==='/about' ? 'active' : ''}>About</Link></li>
+                <li><Link to="/contact" rel="noreferrer" onClick={() => setActiveNav('/contact')} className= {activeNav ==='/contact' ? 'active' : ''}>Contact</Link></li>
+                <li><Link to="/login" rel="noreferrer" onClick={() => setActiveNav('/login')} className= {activeNav ==='/login' ? 'active' : ''}>Login</Link></li>
           </ul>
           <div className="hamburger" onClick={handleClick} size={20}>
             {click ?(
