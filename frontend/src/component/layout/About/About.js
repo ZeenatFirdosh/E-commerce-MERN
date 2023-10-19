@@ -7,7 +7,7 @@ import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import TelegramIcon from '@material-ui/icons/Telegram';
 const About = () => {
   const visitInstagram = () => {
-    window.location = "https://github.com/ZeenatFirdosh";
+    window.location = "https://github.com/MOHDSAMIULLAH";
   };
   return (
     <div className="aboutSection">
@@ -20,10 +20,10 @@ const About = () => {
           <div>
             <Avatar
               style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-              src="https://res.cloudinary.com/dc4gfoeno/image/upload/v1696714974/avatars/qll6lhoyqod2ilemk47f.jpg"
+              src="https://res.cloudinary.com/dc4gfoeno/image/upload/v1697548009/avatars/sami_sp2ebe.jpg"
               alt="Founder"
             />
-            <Typography>Zeenat Firdosh Quadri</Typography>
+            <Typography>Mohd Samiullah</Typography>
             <Button onClick={visitInstagram} color="primary">
               Visit Github
             </Button>
@@ -32,9 +32,9 @@ const About = () => {
             </span>
           </div>
           <div className="aboutSectionContainer2">
-            <Typography component="h2">Our Brands</Typography>
+            <Typography component="h2">Connect with me</Typography>
             <a
-              href="https://github.com/ZeenatFirdosh"
+              href="https://github.com/MOHDSAMIULLAH"
               target="blank"
             >
               <GitHubIcon className="GitHubSvgIcon" />
@@ -43,10 +43,10 @@ const About = () => {
             <a href="https://www.linkedin.com/in/zeenat-firdosh-quadri-237a171a6/" target="blank">
               <LinkedInIcon className="LinkedInSvgIcon" />
             </a>
-            <a href="https://web.whatsapp.com/send?phone=+919304946935" target="blank">
+            <a href="https://web.whatsapp.com/send?phone=+917428098866" target="blank">
               <WhatsAppIcon className="whatsAppSvgIcon" />
             </a>
-            <a href="https://t.me/tele052" target="blank">
+            <a href="https://t.me/MohdSamiullah" target="blank">
               <TelegramIcon className="TelegramSvgIcon" />
             </a>
           </div>

@@ -26,7 +26,7 @@
     align-items: center;
     height: 100%;
     /* background-color: rgb(124, 157, 146); */
-    width: 95vw;
+    width: 98vw;
   }
   
   .navbar-bg {
@@ -35,10 +35,10 @@
   }
   
   
-  .logo a {
+  .logo img {
       color: rgba(228, 15, 15, 0.701);
       font-size: 1.5rem;
-
+height: 2rem;
     font-weight: 800;
   }
   
@@ -64,7 +64,7 @@ right: 10rem;  }
     font-size: 1rem;
     font-weight: 500;
     /* color: var(--color-light); */
-    color: #e03e3e;
+    color: #FFDF00;
     text-decoration: none;
       padding: .4rem;
       border-radius: 1rem;
@@ -75,8 +75,8 @@ right: 10rem;  }
     /* color: #574c4c; */
     font-weight: 500;
     position: relative;
-    background: #edcdcd;
-    color: #653030;
+    background: #e9f59b;
+    color: #181817;
   }
   
   .nav-elements ul a.active::after {

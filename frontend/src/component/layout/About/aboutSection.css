@@ -78,17 +78,30 @@
 }
 
 .aboutSectionContainer2 > a > svg {
-  font-size: 4vmax;
+  font-size: 3vmax;
 }
 
+.GitHubSvgIcon{
+color: #000;
+}
 .youtubeSvgIcon {
   color: tomato;
 }
-
+.LinkedInSvgIcon{
+  color: #0072b1 ;
+  ;
+}
 .instagramSvgIcon {
   color: rgb(144, 81, 202);
 }
+.whatsAppSvgIcon{
+  color: rgb(27, 158, 29);
+}
 
+.TelegramSvgIcon{
+  color: #229ED9;
+  ;
+}
 @media screen and (max-width: 600px) {
   .aboutSectionContainer > div {
     display: block;
